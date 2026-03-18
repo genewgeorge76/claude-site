@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  
+  <!-- Homepage - Highest Priority -->
+  <url>
+    <loc>https://jwordenasphaltpaving.com/</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/commercial-parking-lot.jpg</image:loc>
+      <image:title>J. Worden &amp; Sons Asphalt Paving - Richmond VA</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service Pages - High Priority (0.9) -->
+  <url>
+    <loc>https://jwordenasphaltpaving.com/asphalt-driveway-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/driveway-install.jpg</image:loc>
+      <image:title>Asphalt Driveway Paving - Richmond VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/parking-lot-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/parking-lot.jpg</image:loc>
+      <image:title>Commercial Parking Lot Paving - Chester VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/sealcoating</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/sealcoating.jpg</image:loc>
+      <image:title>Asphalt Sealcoating Services - Richmond VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/asphalt-repair</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/asphalt-repair.jpg</image:loc>
+      <image:title>Asphalt Repair &amp; Patching - Richmond VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/concrete-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/concrete-paving.jpg</image:loc>
+      <image:title>Concrete Paving &amp; Installation - Central VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/cobblestone-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/cobblestone-paving.jpg</image:loc>
+      <image:title>Cobblestone Paving &amp; Hardscape - Richmond VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/stone-masonry-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/stone-masonry-paving.jpg</image:loc>
+      <image:title>Stone Masonry Paving &amp; Hardscape - Virginia</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/grading-excavation</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/grading-excavation.jpg</image:loc>
+      <image:title>Grading &amp; Excavation Services - Richmond VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/line-striping</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/line-striping.jpg</image:loc>
+      <image:title>Parking Lot Line Striping - Chester VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/chip-and-tar</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/chip-tar-surface.jpg</image:loc>
+      <image:title>Chip and Tar Paving - Virginia</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/asphalt-paving-cost-virginia</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/commercial-asphalt.jpg</image:loc>
+      <image:title>Asphalt Paving Cost Guide - Virginia</image:title>
+    </image:image>
+  </url>
+
+  <!-- Location Pages - Medium-High Priority (0.85) -->
+  <url>
+    <loc>https://jwordenasphaltpaving.com/richmond-va-asphalt-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/commercial-parking-lot.jpg</image:loc>
+      <image:title>Asphalt Paving in Richmond, VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/richmond-va-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/parking-lot.jpg</image:loc>
+      <image:title>General Paving Services - Richmond VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/chester-va-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/driveway-install.jpg</image:loc>
+      <image:title>Paving Services - Chester VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/chesterfield-asphalt-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/parking-lot.jpg</image:loc>
+      <image:title>Asphalt Paving in Chesterfield County, VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/henrico-asphalt-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/parking-lot.jpg</image:loc>
+      <image:title>Asphalt Paving in Henrico County, VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/midlothian-asphalt-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/residential-driveway.jpg</image:loc>
+      <image:title>Asphalt Paving in Midlothian, VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/glen-allen-asphalt-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/parking-lot.jpg</image:loc>
+      <image:title>Asphalt Paving in Glen Allen, VA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://jwordenasphaltpaving.com/mechanicsville-asphalt-paving</loc>
+    <lastmod>2025-03-17T16:25:52Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://jwordenasphaltpaving.com/images/driveway-install.jpg</image:loc>
+      <image:title>Asphalt Paving in Mechanicsville, VA</image:title>
+    </image:image>
+  </url>
+
+</urlset>
