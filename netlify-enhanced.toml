@@ -1,0 +1,176 @@
+[build]
+  publish = "."
+
+# Service worker - must never be cached
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    Content-Type = "application/javascript"
+
+# Manifest - short cache
+[[headers]]
+  for = "/manifest.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/manifest+json"
+
+# SEO files - moderate cache, must stay fresh
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Type = "application/xml"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Type = "text/plain"
+
+# Images - long cache, very aggressive
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Access-Control-Allow-Origin = "*"
+
+# CSS and JS assets - long cache with version control
+[[headers]]
+  for = "/styles.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "text/css; charset=utf-8"
+
+# HTML pages - short cache so updates go live fast
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    Content-Type = "text/html; charset=utf-8"
+
+# Security headers on everything
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+# Gzip compression
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Encoding = "gzip"
+
+# Clean URL redirects - drop .html extension (301 = permanent)
+[[redirects]]
+  from = "/asphalt-driveway-paving.html"
+  to = "/asphalt-driveway-paving"
+  status = 301
+
+[[redirects]]
+  from = "/parking-lot-paving.html"
+  to = "/parking-lot-paving"
+  status = 301
+
+[[redirects]]
+  from = "/sealcoating.html"
+  to = "/sealcoating"
+  status = 301
+
+[[redirects]]
+  from = "/asphalt-repair.html"
+  to = "/asphalt-repair"
+  status = 301
+
+[[redirects]]
+  from = "/grading-excavation.html"
+  to = "/grading-excavation"
+  status = 301
+
+[[redirects]]
+  from = "/line-striping.html"
+  to = "/line-striping"
+  status = 301
+
+[[redirects]]
+  from = "/chip-and-tar.html"
+  to = "/chip-and-tar"
+  status = 301
+
+[[redirects]]
+  from = "/cobblestone-paving.html"
+  to = "/cobblestone-paving"
+  status = 301
+
+[[redirects]]
+  from = "/concrete-paving.html"
+  to = "/concrete-paving"
+  status = 301
+
+[[redirects]]
+  from = "/stone-masonry-paving.html"
+  to = "/stone-masonry-paving"
+  status = 301
+
+[[redirects]]
+  from = "/richmond-va-asphalt-paving.html"
+  to = "/richmond-va-asphalt-paving"
+  status = 301
+
+[[redirects]]
+  from = "/chesterfield-asphalt-paving.html"
+  to = "/chesterfield-asphalt-paving"
+  status = 301
+
+[[redirects]]
+  from = "/henrico-asphalt-paving.html"
+  to = "/henrico-asphalt-paving"
+  status = 301
+
+[[redirects]]
+  from = "/midlothian-asphalt-paving.html"
+  to = "/midlothian-asphalt-paving"
+  status = 301
+
+[[redirects]]
+  from = "/glen-allen-asphalt-paving.html"
+  to = "/glen-allen-asphalt-paving"
+  status = 301
+
+[[redirects]]
+  from = "/mechanicsville-asphalt-paving.html"
+  to = "/mechanicsville-asphalt-paving"
+  status = 301
+
+[[redirects]]
+  from = "/chester-va-paving.html"
+  to = "/chester-va-paving"
+  status = 301
+
+[[redirects]]
+  from = "/richmond-va-paving.html"
+  to = "/richmond-va-paving"
+  status = 301
+
+[[redirects]]
+  from = "/asphalt-paving-cost-virginia.html"
+  to = "/asphalt-paving-cost-virginia"
+  status = 301
+
+# Trailing slash normalization (remove trailing slashes)
+[[redirects]]
+  from = "/:path/"
+  to = "/:path"
+  status = 301
+  force = false
+
+# Catch-all for missing pages
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

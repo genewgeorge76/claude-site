@@ -1,0 +1,35 @@
+# robots.txt for J. Worden & Sons Asphalt Paving
+# Last Updated: March 17, 2025
+
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /styles.css
+Allow: /sw.js
+Allow: /manifest.json
+
+# Disallow crawling of private/internal directories (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Slow down aggressive bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Googlebot gets priority access
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Link to sitemap for search engines
+Sitemap: https://jwordenasphaltpaving.com/sitemap.xml
+Sitemap: https://jwordenasphaltpaving.com/sitemap-images.xml
+
+# Specify the crawl-delay in seconds for general bots
+Crawl-delay: 1
